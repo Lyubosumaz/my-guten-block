@@ -1,0 +1,35 @@
+.notification {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 0.3rem solid #292929;
+  color: #292929; }
+
+.notification.small {
+  min-width: 25rem;
+  min-height: 20rem; }
+
+.notification.medium {
+  min-width: 70rem;
+  min-height: 30rem; }
+
+.notification.large {
+  min-width: 105rem;
+  min-height: 35rem; }
+
+.notification.classic {
+  border-radius: 1rem;
+  font: 30px "Segoe UI",Arial,sans-serif;
+  background: #f4f4f4; }
+
+.notification.success.colorful {
+  background: #A3CB38; }
+
+.notification.error.colorful {
+  background: #EA2027; }
+
+.notification.notice.colorful {
+  background: #12CBC4; }
+
+.notification.warning.colorful {
+  background: #FFC312; }

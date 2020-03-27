@@ -1,0 +1,44 @@
+.notification {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 0.3rem solid $black;
+  color: $black;
+}
+
+.notification.small {
+  min-width: 25rem;
+  min-height: 20rem;
+}
+
+.notification.medium {
+  min-width: 70rem;
+  min-height: 30rem;
+}
+
+.notification.large {
+  min-width: 105rem;
+  min-height: 35rem;
+}
+
+.notification.classic{
+  border-radius: 1rem;
+  font: 30px "Segoe UI",Arial,sans-serif;
+  background: $white;
+}
+
+.notification.success.colorful{
+  background: $success;
+}
+
+.notification.error.colorful{
+  background: $error;
+}
+
+.notification.notice.colorful{
+  background: $notice;
+}
+
+.notification.warning.colorful{
+  background: $warning;
+}
